@@ -3,7 +3,7 @@
 #RD is the reads that support the ref, AD is for the alt
 ########################################################
 library(stringr)
-setwd("/home/owht/KIZ/data/Deconvolution/XCI/trim_tumor/noindel")
+setwd("The_PATH_to_vcf_files")
 library(VariantAnnotation)
 filelist<-list.files()
 for (i in 1:length(filelist)){
